@@ -1,8 +1,7 @@
 import { setupWorker } from 'msw';
-import { env } from '../configs/env';
 import { handlers } from './handlers';
 
-if (env.ENABLE_MSW) {
+if (process.env.REACT_APP_ENABLE_MSW) {
   const worker = setupWorker(...handlers);
   worker.start();
 }
