@@ -1,5 +1,5 @@
 const App = () => {
-  return null; // Change return to return dashboad page
+  return <div></div>; // Change return to return dashboad page
 };
 
 export default App;
