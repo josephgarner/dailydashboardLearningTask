@@ -1,0 +1,13 @@
+build/
+cdk.out/
+dist/
+coverage/
+.yarn/
+.vim/
+.vscode/
+.pnp.js
+
+# `act` includes the following directories in our repository that we want to ignore
+_actions
+
+mockServiceWorker.js
