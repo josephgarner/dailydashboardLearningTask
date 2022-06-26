@@ -25,7 +25,7 @@ jobs:
         env:
           ENV_FILE: ${{ secrets.ENV_FILE }}
         run: |
-          echo $ENV_FILE && echo $ENV_FILE | base64 --decode > .env
+          echo "$ENV_FILE" | base64 --decode > .env
 
       - name: Install app dependencies
         run: yarn install --immutable
