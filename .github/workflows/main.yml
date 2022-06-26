@@ -1,5 +1,9 @@
 name: Build and deploy feature
 
+on:
+  pull_request:
+    branches: [main]
+
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
