@@ -34,6 +34,10 @@ Promis based http client for node and browser - [DOCS](https://axios-http.com/do
 
 UI Framework (hooks & core version being used) - [DOCS](https://mantine.dev/getting-started/)
 
+### React Icons
+
+Icon framework that provides access to a wide range of icons - [DOCS](https://react-icons.github.io/react-icons/)
+
 ### React Testing Library
 
 Testing library purpose built for react - [DOCS](https://testing-library.com/docs/react-testing-library/intro)
