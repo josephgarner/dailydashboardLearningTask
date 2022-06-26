@@ -1,11 +1,11 @@
 # Daily Dashboard Learning Task
 
-#### project plugin requirements
+### project plugin requirements
 
 - Prettier
 - Eslint
 
-### How to run
+## How to run
 
 ```javascript
 //  Install yarn
@@ -24,7 +24,39 @@ yarn start
 yarn start
 ```
 
-### Learning Task outline
+## Packages Used in this Repo
+
+### Axios
+
+Promis based http client for node and browser - [DOCS](https://axios-http.com/docs/intro)
+
+### mantine
+
+UI Framework (hooks & core version being used) - [DOCS](https://mantine.dev/getting-started/)
+
+### React Testing Library
+
+Testing library purpose built for react - [DOCS](https://testing-library.com/docs/react-testing-library/intro)
+
+### Jest
+
+Testing and Mocking library - [DOCS](https://jestjs.io/docs/getting-started)
+
+## API Endpoints
+
+### Weather Data
+
+```
+http://mock-api-call/weather/get-weather
+```
+
+### News Data
+
+```
+http://mock-api-call/news/get-news
+```
+
+## Learning Task outline
 
 This task is designed to build upon basic react and testing knowlege. Each ticket within this task will idealy build upon the last.
 
