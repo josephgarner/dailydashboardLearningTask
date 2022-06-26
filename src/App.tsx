@@ -1,5 +1,7 @@
+import Dashboard from './pages/dashboard';
+
 const App = () => {
-  return <div></div>; // Change return to return dashboad page
+  return <Dashboard />;
 };
 
 export default App;
